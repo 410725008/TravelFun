@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TravelData" representedClassName="TravelDataMO" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="Transformable"/>
+        <attribute name="distric" optional="YES" attributeType="String"/>
+        <attribute name="elong" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="facebook" optional="YES" attributeType="String"/>
+        <attribute name="files" optional="YES" attributeType="Transformable"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="image2" optional="YES" attributeType="Binary"/>
+        <attribute name="images" optional="YES" attributeType="Transformable"/>
+        <attribute name="introduction" optional="YES" attributeType="String"/>
+        <attribute name="isVisited" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modified" optional="YES" attributeType="String"/>
+        <attribute name="months" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="nlat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="official_site" optional="YES" attributeType="String"/>
+        <attribute name="open_status" optional="YES" attributeType="String"/>
+        <attribute name="open_time" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <attribute name="remind" optional="YES" attributeType="String"/>
+        <attribute name="staytime" optional="YES" attributeType="String"/>
+        <attribute name="target" optional="YES" attributeType="Transformable"/>
+        <attribute name="tel" optional="YES" attributeType="String"/>
+        <attribute name="ticket" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+        <attribute name="zipcode" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="TravelData" positionX="-27" positionY="18" width="128" height="463"/>
+    </elements>
+</model>
